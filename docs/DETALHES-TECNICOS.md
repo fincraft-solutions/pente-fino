@@ -1,3 +1,5 @@
+> Language: [English](en/guide.md) | [Português (Brasil)](pt-BR/guide.md)
+
 # Pente-Fino
 
 Revisão do DAS de MEI e Simples Nacional. Procura imposto **pago a mais** (a recuperar) e **pago a menos** (risco de autuação) nos últimos 5 anos e entrega um relatório com o valor estimado, a explicação e o próximo passo de cada achado.

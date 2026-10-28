@@ -1,49 +1,45 @@
+**Language:** **English** | [Português (Brasil)](README.pt-BR.md)
+
 # Pente-Fino
 
 ```text
-   ___  __________
-  |   ||   _____ /   FINCRAFT
-  |___||  |____/    OPEN LAB
-       |  |
-       |__|
+   ___
+  | __|   FINCRAFT / PENTE-FINO
+  | _|
+  |_|
 ```
 
-**Antes de chamar algo de erro, mostre a regra que encontrou o indício.**
+**Turn a tax calculation into a reviewable case.**
 
+Pente-Fino inspects sample DAS scenarios from MEI and Simples Nacional and highlights items worth a closer look. Every finding points to the rule that raised it, so a specialist can retrace the calculation.
 
-Um diagnóstico local de possíveis inconsistências no DAS, com foco em regras auditáveis. O Pente-Fino tenta organizar **hipóteses para conferência**: dados de entrada, regra acionada e motivo da sinalização. Um modelo de linguagem pode resumir o relatório, mas **não calcula nem define tributo**.
+## Try it
 
-> **Estado:** demonstração técnica. Tabelas fiscais e classificações NCM são parciais e precisam de validação de vigência; nenhum resultado é laudo, crédito ou restituição confirmada.
-
-## Veja um diagnóstico acontecer
+Requires Node.js 22.20 or newer. Clone the repository and run:
 
 ```bash
-# Node.js 22.20+, sem API externa no fluxo abaixo
 npm ci
-npm run typecheck
-npm test
 npm run diagnosticar -- exemplos/simples-comercio.json
 ```
 
-O relatório Markdown é salvo em `saida/simples-comercio.md`. Quer examinar a estrutura do resultado, sem saída narrativa? Execute:
+The Markdown report appears in `saida/simples-comercio.md`. Add `--json` to inspect the structured result. The example runs locally without an AI provider.
 
-```bash
-npm run diagnosticar -- exemplos/simples-comercio.json --json
-```
+## What's inside
 
-Compare também [`exemplos/simples-servicos.json`](exemplos/simples-servicos.json) e [`exemplos/mei.json`](exemplos/mei.json). São empresas fictícias, não simulações fiscais homologadas.
+- **Rules you can inspect.** The checks live in `src/regras/`.
+- **Readable findings.** Each item includes a rationale for review.
+- **Several scenarios.** Explore the commerce, services and MEI examples side by side.
 
-## Como é dividido
+## Explore the code
 
-- [`src/diagnostico.ts`](src/diagnostico.ts): hipóteses e regras de detecção.
-- [`src/relatorio.ts`](src/relatorio.ts): justificativas legíveis e encaminhamentos.
-- [`src/resumo-ia.ts`](src/resumo-ia.ts): resumo **opcional**; não altera as contas.
-- [`dados/`](dados/): parâmetros exemplificativos, sujeitos a revisão periódica.
+[Commerce example](exemplos/simples-comercio.json) · [Checks](src/regras/) · [Report builder](src/relatorio.ts) · [Technical guide](docs/en/guide.md)
 
-## Os limites importam
+## Extend it
 
-Uma divergência sinalizada não é cobrança irregular demonstrada; uma conta baseada em tabela parcial não calcula o valor recuperável. A validação final depende de documentos, competência, legislação e profissional responsável.
+Optional AI summarization is isolated in `src/resumo-ia.ts`. Tax checks themselves run through explicit application rules.
 
-**Continue por:** [detalhes técnicos](docs/DETALHES-TECNICOS.md) · [limites](STATUS.md) · [testes](test/) · [como contribuir](CONTRIBUTING.md) · [licença](LICENCIAMENTO.md).
+## Project notes
 
-Projeto da [Fincraft](https://github.com/fincraft-solutions). Contribuições com contraexemplos sintéticos são especialmente bem-vindas.
+This repository offers scenarios for technical exploration. Tax tables and classifications must be confirmed for the applicable period before professional use.
+
+[Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md) · [Fincraft](https://github.com/fincraft-solutions)
