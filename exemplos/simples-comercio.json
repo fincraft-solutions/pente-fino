@@ -1,0 +1,18 @@
+{
+  "cnpj": "00.000.000/0001-03",
+  "razaoSocial": "Exemplo Fictício Autopeças Ltda",
+  "regime": "SIMPLES",
+  "guias": [
+    { "competencia": "2026-08", "valorPago": 4310.00, "dataPagamento": "2026-09-19" },
+    { "competencia": "2026-08", "valorPago": 4310.00, "dataPagamento": "2026-09-22" }
+  ],
+  "apuracoes": [
+    { "competencia": "2026-08", "receitaBruta": 60000, "rbt12": 650000, "atividade": "comercio", "anexoDeclarado": "I", "receitaMonofasicaSegregada": 0 }
+  ],
+  "itensNotas": [
+    { "competencia": "2026-08", "ncm": "8708.30.90", "valor": 18500 },
+    { "competencia": "2026-08", "ncm": "4011.10.00", "valor": 9200 },
+    { "competencia": "2026-08", "ncm": "8302.30.00", "valor": 4100 },
+    { "competencia": "2026-08", "ncm": "3403.19.00", "valor": 28200 }
+  ]
+}

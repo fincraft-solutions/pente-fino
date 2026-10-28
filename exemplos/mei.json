@@ -1,0 +1,26 @@
+{
+  "cnpj": "00.000.000/0001-01",
+  "razaoSocial": "Exemplo Fictício Doces MEI",
+  "regime": "MEI",
+  "dataAbertura": "2023-03-10",
+  "guias": [
+    { "competencia": "2025-01", "valorPago": 81.90, "dataPagamento": "2025-02-18" },
+    { "competencia": "2025-02", "valorPago": 81.90, "dataPagamento": "2025-03-19" },
+    { "competencia": "2025-02", "valorPago": 81.90, "dataPagamento": "2025-03-25" },
+    { "competencia": "2025-03", "valorPago": 81.90, "dataPagamento": "2025-04-17" }
+  ],
+  "apuracoes": [
+    { "competencia": "2025-01", "receitaBruta": 7200 },
+    { "competencia": "2025-02", "receitaBruta": 7900 },
+    { "competencia": "2025-03", "receitaBruta": 8100 },
+    { "competencia": "2025-04", "receitaBruta": 7600 },
+    { "competencia": "2025-05", "receitaBruta": 8300 },
+    { "competencia": "2025-06", "receitaBruta": 7800 },
+    { "competencia": "2025-07", "receitaBruta": 7400 },
+    { "competencia": "2025-08", "receitaBruta": 7700 },
+    { "competencia": "2025-09", "receitaBruta": 8000 },
+    { "competencia": "2025-10", "receitaBruta": 7900 },
+    { "competencia": "2025-11", "receitaBruta": 8600 },
+    { "competencia": "2025-12", "receitaBruta": 9500 }
+  ]
+}

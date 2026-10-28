@@ -1,0 +1,66 @@
+{
+  "_aviso": "Lista de EXEMPLO, incompleta, para demonstrar a regra. Prefixos de NCM sujeitos a PIS/Cofins monofásico (Lei 10.147/2000, Lei 10.485/2002, Lei 13.097/2015 e outras). Monte a lista definitiva com o contador antes de publicar valores: há exceções por código completo e por posição na cadeia. Use 'excecoes' para códigos que casam com um prefixo mas não são monofásicos.",
+  "verificado_em": null,
+  "grupos": [
+    {
+      "grupo": "Medicamentos e produtos farmacêuticos",
+      "prefixos": [
+        "3001",
+        "3003",
+        "3004",
+        "3002.10",
+        "3006.30",
+        "3006.60"
+      ]
+    },
+    {
+      "grupo": "Perfumaria, higiene pessoal e cosméticos",
+      "prefixos": [
+        "3303",
+        "3304",
+        "3305",
+        "3306",
+        "3307",
+        "3401.11.90",
+        "3401.20.10",
+        "9603.21"
+      ]
+    },
+    {
+      "grupo": "Autopeças e pneus",
+      "prefixos": [
+        "4011",
+        "4013",
+        "8407.3",
+        "8413.30",
+        "8421.23",
+        "8483.10",
+        "8507.10",
+        "8511",
+        "8512.20",
+        "8708",
+        "8409.91",
+        "8409.99"
+      ]
+    },
+    {
+      "grupo": "Bebidas frias",
+      "prefixos": [
+        "2106.90.10",
+        "2201",
+        "2202",
+        "2203"
+      ]
+    },
+    {
+      "grupo": "Combustíveis",
+      "prefixos": [
+        "2710.12",
+        "2710.19.21",
+        "2711.19.10",
+        "2207.10",
+        "2207.20"
+      ]
+    }
+  ]
+}

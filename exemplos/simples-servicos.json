@@ -1,0 +1,15 @@
+{
+  "cnpj": "00.000.000/0001-02",
+  "razaoSocial": "Exemplo Fictício Tecnologia Ltda",
+  "regime": "SIMPLES",
+  "guias": [
+    { "competencia": "2026-07", "valorPago": 5735.42, "dataPagamento": "2026-08-20" },
+    { "competencia": "2026-08", "valorPago": 5978.10, "dataPagamento": "2026-09-18" },
+    { "competencia": "2026-09", "valorPago": 4120.00, "dataPagamento": "2026-10-20" }
+  ],
+  "apuracoes": [
+    { "competencia": "2026-07", "receitaBruta": 32000, "rbt12": 380000, "folha12": 112000, "atividade": "servico_fator_r", "anexoDeclarado": "V" },
+    { "competencia": "2026-08", "receitaBruta": 33500, "rbt12": 384000, "folha12": 113500, "atividade": "servico_fator_r", "anexoDeclarado": "V" },
+    { "competencia": "2026-09", "receitaBruta": 30000, "rbt12": 387000, "folha12": 96000, "atividade": "servico_fator_r", "anexoDeclarado": "III" }
+  ]
+}

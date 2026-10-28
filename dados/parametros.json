@@ -1,0 +1,43 @@
+{
+  "_aviso": "Valores a validar contra a LC 123/2006 (Anexos I, III e V) e a Resolução CGSN 140/2018 antes de publicar. Atualize aqui quando a lei mudar; o código não tem número fixo.",
+  "verificado_em": null,
+  "prazoRestituicaoMeses": 60,
+  "limiteFatorR": 0.28,
+  "_limitesMei": "Limite do MEI por ano-calendário (vale a maior chave ≤ ano). 2018: LC 155/2016. 2027: LC 238/2026, art. 2º. 2028 em diante: LC 123, art. 18-A, §§ 1º e 2º, com a redação da LC 238/2026 (art. 10, I).",
+  "limitesMei": {
+    "2018": { "anual": 81000, "mensalProporcional": 6750 },
+    "2027": { "anual": 110000, "mensalProporcional": 9166.67 },
+    "2028": { "anual": 140000, "mensalProporcional": 11666.67 }
+  },
+  "_partilhaPisCofinsVigenteAte": "A partir de 2027 a reforma tributária (LC 214/2025) muda a partilha do DAS; a regra de monofásico não calcula competências depois desta.",
+  "partilhaPisCofinsVigenteAte": "2026-12",
+  "limiteSimples": 4800000,
+  "anexos": {
+    "I": [
+      { "ate": 180000, "aliquota": 0.04, "deducao": 0 },
+      { "ate": 360000, "aliquota": 0.073, "deducao": 5940 },
+      { "ate": 720000, "aliquota": 0.095, "deducao": 13860 },
+      { "ate": 1800000, "aliquota": 0.107, "deducao": 22500 },
+      { "ate": 3600000, "aliquota": 0.143, "deducao": 87300 },
+      { "ate": 4800000, "aliquota": 0.19, "deducao": 378000 }
+    ],
+    "III": [
+      { "ate": 180000, "aliquota": 0.06, "deducao": 0 },
+      { "ate": 360000, "aliquota": 0.112, "deducao": 9360 },
+      { "ate": 720000, "aliquota": 0.135, "deducao": 17640 },
+      { "ate": 1800000, "aliquota": 0.16, "deducao": 35640 },
+      { "ate": 3600000, "aliquota": 0.21, "deducao": 125640 },
+      { "ate": 4800000, "aliquota": 0.33, "deducao": 648000 }
+    ],
+    "V": [
+      { "ate": 180000, "aliquota": 0.155, "deducao": 0 },
+      { "ate": 360000, "aliquota": 0.18, "deducao": 4500 },
+      { "ate": 720000, "aliquota": 0.195, "deducao": 9900 },
+      { "ate": 1800000, "aliquota": 0.205, "deducao": 17100 },
+      { "ate": 3600000, "aliquota": 0.23, "deducao": 62100 },
+      { "ate": 4800000, "aliquota": 0.305, "deducao": 540000 }
+    ]
+  },
+  "_participacaoPisCofinsAnexoI": "Fração do DAS do Anexo I que corresponde a PIS + Cofins, por faixa (Cofins 12,74% + PIS 2,76% nas faixas 1 a 5; 28,27% + 6,13% na faixa 6).",
+  "participacaoPisCofinsAnexoI": [0.155, 0.155, 0.155, 0.155, 0.155, 0.344]
+}
